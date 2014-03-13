@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Jekyll
+title: Hello Jekyll!
 categories:
 - blog
 ---
