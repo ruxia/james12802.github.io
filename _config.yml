@@ -1,6 +1,6 @@
 # General Jekyll Config
 pygments: true
-url: http://james12802.co.uk
+url: 
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 
