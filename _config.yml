@@ -1,0 +1,34 @@
+# General Jekyll Config
+pygments: true
+url: http://james12802.co.uk
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#e6801a'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: james12802
+    #bitbucket: james12802
+    #hacker_news: swanson
+    stackexchange: 2268955
+    stackoverflow: 1996889
+    twitter: james12802
+    #facebook: zuck
+    #tumblr: animalygifs
+    #linkedin: philipjagielski
+    #gplus: 110552447039675960964
+
+  # "Hi, I'm _______"
+  name: james12802
+  email: hello@james12802.com
+  tagline: "weak opinions, strongly held"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key:
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true
