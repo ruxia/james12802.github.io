@@ -3,6 +3,7 @@ layout: post
 title: Hello World!
 categories:
 - blog
+comments: true
 ---
 
 Hello! I'm James, but you already know that. You may know that I'm an IT student with a love of technology and computers. You may also know that I'm at college. What you may not know is that I'm on the second year of that course at the local college - which I attend 3 days a week. I spend half of one of the days off working as an IT tech at a local school. The other day is spent as work experience, creating a database for a local business. Oh, and in any spare time I get I am teaching myself a-level maths.
