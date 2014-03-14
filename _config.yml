@@ -32,3 +32,8 @@ theme:
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
+
+  comments :
+  provider : disqus
+  disqus :
+    short_name : james12802
