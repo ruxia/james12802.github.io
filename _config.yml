@@ -33,7 +33,11 @@ theme:
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: false
 
+  # Comments by Disqus
   comments :
   provider : disqus
   disqus :
     short_name : james12802
+
+  #Timezone
+  timezone: Europe/United_Kingdom
