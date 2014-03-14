@@ -7,6 +7,7 @@ Licence
 The following directories and their contents are copyrighted "james12802" aka James Oliver and connot be used with out my expressed premission.
 
 * _posts/
+* _drafts/
 
 The changes I have made (although minimal) to the theme ["Lagom"](https://github.com/swanson/lagom) by [Matt Swanson](https://github.com/swanson) are licenced under the MIT licence and will be located in its own repo soon.
 
