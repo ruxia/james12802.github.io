@@ -26,11 +26,11 @@ Another big change is that this is hosted by the wonderful people at [GitHub][gh
 
 * My blog benefits from their Content Delivery Network
 * My blog also benefits from their DOS protection
-* My blog will always be online - When it was hosted on my Pi, I had to turn it off each night and back on again in the morning
+* My blog will always be online - when it was hosted on my Pi, I had to turn it off each night and back on again in the morning
 
-The main advantage is that it will be much less work (yes I am super lazy). Before, each post had to be written, created in a HTML file, linked correctly with tagging, transferred to my Pi and then hosted. This meant I actively avoided posting, as it just wasn’t worth it!
+The main advantage is that it will be much less work (yes I am super lazy). Before, each post had to be written, transfered and formated as a HTML file, linked correctly with tagging, transferred to my Pi and then hosted. This meant I actively avoided posting, as it just wasn’t worth it!
 
-Now all I have to do is write a post (in my favourite document markup language) in MarkDown, push it to GitHub and BOOM. 
+Now all I have to do is write a post in my favourite document markup language - MarkDown, push it to GitHub and BOOM. 
 
 Done.
 
