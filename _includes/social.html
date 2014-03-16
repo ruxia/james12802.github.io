@@ -63,6 +63,12 @@ Lets get social!
   </a>
   {% endif %}
 
+  {% if site.theme.social.email %}
+  <a title="{{ site.theme.social.email }} on Bitbucket" href="mailto:{{ site.theme.social.email }}/">
+    <i class="fa fa-pencil-square"></i>
+  </a>
+  {% endif %}
+
   <a title="RSS feed" id="rss" href="/atom.xml">
     <i class="fa fa-rss-square"></i>
   </a>
