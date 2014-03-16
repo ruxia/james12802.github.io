@@ -15,4 +15,4 @@ The changes I have made (although minimal) to the theme ["Lagom"][l] by [Matt Sw
 [jk]: http://jekyllrb.com/
 [ms]: http://github.com/swanson
 [l]: http://github.com/swanson/lagom
-[lo] http://github.com/james12802/lagom-orange
+[lo]: http://github.com/james12802/lagom-orange
