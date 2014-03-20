@@ -17,16 +17,16 @@ Fortunately for me, [Madhur Ahuja][ma] clearly knew the pain I was suffering and
 * Python 2.7.5
 * Git 1.8.3
 
-Now the last two I had already, but all the Ruby stuff, setup and in one place is just awesome! To download "PortableJekyll" [click here][pjd] (it takes you to his dropbox).
+Now the last two I had already, but to have all the Ruby stuff, setup and in one place is just awesome! To download PortableJekyll [click here][pjd] (it takes you to his dropbox).
 
 ##Installation
-Once that zipped folder has downloaded, extract the contents using your favourite file archiver \*cough\* 7-zip \*cough\*. Now drag the extracted file to the C: drive	and place it there. Done. I told you it was awesome!
+Once that zipped folder has downloaded, extract the contents using your favourite file archiver \*cough\* 7-zip \*cough\*. Now drag the extracted file to the C:\ drive	and place it there. Done. I told you it was awesome!
 
 ![My C drive][img-c-drive]
 
 Once the folder is in place, you need to add a few lines to the PC's Environment Variables - specifically adding the paths of Jekyll, Ruby, the devkit and Python. Once the paths have been added, you can call and use these programs anywhere on your system. 
 
-Go Start -> Control Panel -> System and Security -> System. You should see system specs and other info on your machine.
+Go Start -> Control Panel -> System and Security -> System. You should now see system specs and other info on your machine.
 
 ![What you should be seeing][img-system]
 
