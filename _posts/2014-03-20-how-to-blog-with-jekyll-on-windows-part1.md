@@ -5,7 +5,7 @@ categories:
 - blog
 comments: true
 ---
-So, here it is. My "How to" on creating your very own Jekyll blog. Now, this is for Windows so if you are on OSX or Linux there are official tutorials from [Jekyll][jkt] (and come, if you’re on Linux you should know who to do this stuff ;p). 
+So, here it is. My "How to" on creating your very own Jekyll blog. Now, this is for Windows so if you are on OSX or Linux there are official tutorials from [Jekyll][jkt] (and come, if you’re on Linux you should know how to do this stuff ;p). 
 
 ##Prerequisites
 Jekyll is built on Ruby - so naturally, Ruby is required. As I have [stated before][p], I know very little Ruby and as I am running Windows, it is not pre-installed. I went through various methods of installing Ruby and acquiring all the necessary Gems, but to no avail.
