@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Batteries NOT inclued
+title: Batteries NOT included
 categories:
 - blog
 comments: true
