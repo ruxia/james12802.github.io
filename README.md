@@ -1,6 +1,6 @@
 #james12802.github.io
 
-Personal blog of [james12802][j] - built with [Jekyll][jk], hosted on GitHub and using [Matt Swanson's][ms] awesome [Lagom][l] theme - [lagom-orange][lo]!
+Personal blog of [james12802][j] - built with [Jekyll][jk], hosted on GitHub and using [Matt Swanson's][ms] awesome [Lagom][l] theme!
 
 Licence
 ---
