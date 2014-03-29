@@ -3,7 +3,10 @@ layout: default
 ---
 
 <p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} 
+  {% assign d = page.date | date: "%-d" %}
+  {% case d %}{% when "1" or "21" or "31" %}{{ d }}st of{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd of{% else %}{{ d }}th of{% endcase %}
+  {{ page.date | date: "%B" }}, 
+  {{ page.date | date: "%Y" }}
   <a href="/">
     <i class="home fa fa-home"></i>
   </a>
