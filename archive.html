@@ -4,8 +4,8 @@ title: Archives
 ---
 
 <div id="home">
-  	<h2><i class="fa fa-book"></i> Archives</h2>
-  	<ul id="blog-posts" class="posts">
+  <h2><i class="fa fa-book"></i> Archives</h2>
+  <ul id="blog-posts" class="posts">
     {% for post in site.posts %}
         {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
