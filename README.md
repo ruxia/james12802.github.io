@@ -1,10 +1,10 @@
 #james12802.github.io
 
-Personal blog of [james12802][j] - built with [Jekyll][jk], hosted on GitHub and using [Matt Swanson's][ms] awesome [Lagom][l] theme!
+Personal blog of [james12802][j] - built with [Jekyll][jk], hosted on GitHub and using the awesomely orange [lagom-orange][lo] theme!
 
 Licence
 ---
-The following directories and their contents are copyrighted "james12802" aka James Oliver and connot be used with out my expressed premission.
+The following directories and their contents are copyrighted "james12802" aka James Oliver and cannot be used with out my expressed permission.
 
 * _posts/
 * _drafts/
