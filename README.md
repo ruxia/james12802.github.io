@@ -1,4 +1,4 @@
-#[james12802.github.iop][j]
+#[james12802.github.io][j]
 
 Personal blog of [james12802][j] - built with [Jekyll][jk], hosted on GitHub and using the awesomely orange [lagom-orange][lo] theme!
 
