@@ -42,3 +42,6 @@ theme:
 
   #Timezone
   timezone: Europe/United_Kingdom
+
+  #Markdown migration to "kramdown"
+  markdown: kramdown
