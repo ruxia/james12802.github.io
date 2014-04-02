@@ -40,8 +40,8 @@ theme:
   disqus :
     short_name : james12802
 
-  #Timezone
-  timezone: Europe/United_Kingdom
+#Timezone
+timezone: Europe/United_Kingdom
 
-  #Markdown migration to "kramdown"
-  markdown: kramdown
+#Markdown migration to "kramdown"
+markdown: kramdown
