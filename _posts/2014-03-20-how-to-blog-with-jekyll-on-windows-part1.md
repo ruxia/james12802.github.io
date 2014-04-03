@@ -11,6 +11,7 @@ So, here it is. My "How to" on creating your very own Jekyll blog. Now, this is 
 Jekyll is built on Ruby - so naturally, Ruby is required. As I have [stated before][p], I know very little Ruby and as I am running Windows, it is not pre-installed. I went through various methods of installing Ruby and acquiring all the necessary Gems, but to no avail.
 
 Fortunately for me, [Madhur Ahuja][ma] clearly knew the pain I was suffering and created an all-in-one download - [PortableJekyll][pj], which contains everything:
+
 * Ruby 2.0
 * Ruby DevKit
 * All the required Ruby Gems
