@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Incomplatiable Character Encoding
+title: Incompatible Character Encoding
 categories:
 - blog
 comments: true
