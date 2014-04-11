@@ -29,7 +29,7 @@ To reduce the number of negotiations between server and client, "Heartbeats" whe
 ## Heartbeat Extension
 When the client sends a "Heartbeat" message it consist of a payload and a header - which contains info on the size of the payload. For example a "Heartbeat" could be sent with:
 
-    header: 14 payload: james'-payload
+    header: 14, payload: james'-payload
 
 The webserver receives the message and saves both the payload and the header in its memory. The server responds with a "keep-alive" message, but first an OpenSSL library reads last 14 characters the server stored in its memory and then sends the message to the client. These 14 characters should be the contents of the payload and if they are, connection continues. 
  
@@ -51,10 +51,10 @@ The Heartbleed attack can be fixed by updating both client and server versions o
 ## Check it
 You can check if any sites you use have been effected by using the [LastPass Heartbleed][lp] tool, which will show if a password change is recommend as well as when to do it.
 
-Let me know what you think of the article bellow - suggestments and improvements are very welcome. 
+Let me know what you think of the article in the comments section bellow - suggestments and improvements are very welcome. 
 
 ### Further Reading
-Most of my understanding of Heartbleed came from these sources and I recommend reading for even more info:
+Most of my understanding of Heartbleed came from these sources and I recommend reading the following for even more info:
 
 * dr jimbob's amazing [answer on security.stackexchange][se]
 * Wikipedia's [article][wiki]
