@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kent University
+title: University Application
 categories:
 - blog
 comments: true
