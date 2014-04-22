@@ -38,9 +38,9 @@ Now we have the basics down, back to the heart (;p) of the matter. Heartbleed or
 
 This means I could send my "heartbeat" again, but this time with the header of 65535 while keeping the payload the same. When the server responds it would collect the last 65535 bytes of data and send this to the client responsible for that "heartbeat". This means that I would receive:
 
-    james'-payload
+    "james'-payload"
 
-As well as 65521 bytes of extra data, which could potentially contain sensitive data such as user names, passwords, random rubbish, private keys and even the admin's login details! This attack can be preformed over and over, grating the client more of the server's memory with more sensitive data being reviled each time. The Heartbleed attack is can be preformed completely anomalously and undetectably.
+As well as 65521 bytes of extra data, which could potentially contain sensitive data such as user names, passwords, random rubbish, private keys and even the admin's login details! This attack can be preformed over and over, granting the client more of the server's memory with more sensitive data being reviled each time. The Heartbleed attack is can be preformed completely anomalously and undetectably.
 
 ## Flip it
 The Heartbleed attack can be flipped on its head with a malicious server attacking a client. A server would be say the size of its "stay-alive" payload is 65535, resulting in the client's web server leaking 64 kilobytes of data back to the server. This is less likely to result in the leaking of usable data and can't be done anomalously. 
