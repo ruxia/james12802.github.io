@@ -29,7 +29,7 @@ To reduce the number of negotiations between server and client, "Heartbeats" whe
 ## Heartbeat Extension
 When the client sends a "Heartbeat" message it consist of a payload and a header - which contains info on the size of the payload. For example a "Heartbeat" could be sent with:
 
-    header: 14, payload: james'-payload
+    header: 14, payload: "james' payload"
 
 The webserver receives the message and saves both the payload and the header in its memory. The server responds with a "keep-alive" message, but first an OpenSSL library reads last 14 characters the server stored in its memory and then sends the message to the client. These 14 characters should be the contents of the payload and if they are, connection continues. 
  
@@ -40,7 +40,7 @@ This means I could send my "heartbeat" again, but this time with the header of 6
 
     james'-payload
 
-As well as 65521 bytes of extra data, which could potentially contain sensitive data such as user names, passwords, random garbage, private keys and even the admin's login details! This attack can be preformed over and over, grating the client more of the server's memory with more sensitive data being reviled each time. The Heartbleed attack is can be preformed completely anomalously and undetectably.
+As well as 65521 bytes of extra data, which could potentially contain sensitive data such as user names, passwords, random rubbish, private keys and even the admin's login details! This attack can be preformed over and over, grating the client more of the server's memory with more sensitive data being reviled each time. The Heartbleed attack is can be preformed completely anomalously and undetectably.
 
 ## Flip it
 The Heartbleed attack can be flipped on its head with a malicious server attacking a client. A server would be say the size of its "stay-alive" payload is 65535, resulting in the client's web server leaking 64 kilobytes of data back to the server. This is less likely to result in the leaking of usable data and can't be done anomalously. 
