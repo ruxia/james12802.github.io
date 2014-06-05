@@ -22,18 +22,6 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
 </head>
 
-<script type="text/javascript">
-   window._idl = {};
-   _idl.variant = "modal";
-   _idl.campaign = "reset-the-net";
-   (function() {
-     var idl = document.createElement('script');
-     idl.type = 'text/javascript';
-     idl.async = true;
-     idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url= ' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
-     document.getElementsByTagName('body')[0].appendChild(idl);
-   })();
-</script>
 
 <body>
   <div class="container">
@@ -51,5 +39,18 @@
   </div>
 
 {% include analytics.html %}
+
+<script type="text/javascript">
+   window._idl = {};
+   _idl.variant = "modal";
+   _idl.campaign = "reset-the-net";
+   (function() {
+     var idl = document.createElement('script');
+     idl.type = 'text/javascript';
+     idl.async = true;
+     idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url= ' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+     document.getElementsByTagName('body')[0].appendChild(idl);
+   })();
+</script>
 </body>
 </html>
