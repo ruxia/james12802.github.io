@@ -5,7 +5,7 @@ categories:
 - blog
 comments: true
 ---
-Hey! Long time, no type. Where have you been? What have you been doing? And why haven't you posted anything in AGES!?
+Hey! Long time, no type. Where have you been? What have you been doing? And why haven't you posted anything in AGES?!
 
 ## Ages
 Wow! April was my last post and quite a lot has changed since then. I returned to college after the Easter break, with same lofty goal of 3 Distinction Stars. Just like the year before, the staff were not prepared and assignments where given out in the wrong order or not even written! Dispite this I finished the year with the amazing grade of D\*D\*D\*!! 
